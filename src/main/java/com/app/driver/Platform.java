@@ -1,0 +1,5 @@
+package com.app.driver;
+
+public enum Platform {
+	IOS, ANDROID, APPANALYTICS, WEB, PWA, WINDOWS, MAC, MACANDROIDCHROME, IOSSAFARI, IOSANALYTICS, ATV, AFS, STB
+}

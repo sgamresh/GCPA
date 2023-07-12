@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+ <parameter name="platform" value="IOS" />
+		<parameter name="browser" value="MAC" />
+
+  <test thread-count="5" name="Test">
+  <parameter name="platform" value="IOS" />
+		<parameter name="browser" value="MAC" />
+		<parameter name="udid" value="NANANA-NANANA" />
+		<parameter name="platformVersion" value="16.0" />
+		<parameter name="username" value="NANANA" />
+		<parameter name="password" value="NANANA" />
+		<parameter name="userType" value="Guest" />
+		<parameter name="environment" value="beta" />
+  
+  
+  
+  
+  
+    <classes>
+      <class name="com.app.mobile.VerifyOnboardingModuleUserflows"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
